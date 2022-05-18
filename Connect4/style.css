@@ -1,0 +1,32 @@
+.grid{
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 252px;
+    width: 294px;
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
+.grid .initial {
+    border-style: none;
+}
+
+.player-one{
+    background-color: red;
+}
+
+.player-two{
+    background-color: blue;
+
+}
+
+#result{
+    font-size: 40px;
+}
